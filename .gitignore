@@ -1,0 +1,23 @@
+# 忽略 Visual Studio 生成的临时文件
+.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.vcxproj.user
+
+# 忽略构建目录
+build/
+
+# 忽略中间编译文件
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.tlog
+*.log
+*.exe
+
+# 忽略系统垃圾文件
+.DS_Store
+Thumbs.db
